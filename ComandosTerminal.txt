@@ -1,0 +1,39 @@
+Comandos consola:
+
+csc -> Compilar windows
+
+mcs -> Compilar con mono
+
+cmd + l -> Limpiar consola
+
+ls -> Listar archivos
+
+ls -a -> Listar archivos ocultos
+
+	ls -t -> Ordena archivos por fecha de modificación
+
+	ls -x -> Ordena archivos por nombre y después por extensión
+
+	ls -X -> Ordena archivos por extensión y después por nombre
+
+	ls -l -> Muestra toda la información: usuario, grupo, permisos, tamaño fecha y hora de creación
+	
+	ls -lh -> Lo mismo que ls -l pero con unidades de tamaño en KB, MB
+
+	ls -R -> Te muestra todos los archivos y sus contenidos
+
+	ls -S -> Ordena por tamaño del archivo
+
+pwd -> Identificar el directorio
+
+cd -> Cambiar directorio
+
+mkdir -> Crear directorio
+
+cp -> Copiar archivo (cp “Nombre archivo y extensión” “Nombre directorio al que va”/)
+
+rm -> Borrar archivo
+
+mv -> Mover archivo 1
+
+rmdir -> borrar directorio
