@@ -7,3 +7,13 @@ height will be assigned using a random number. The width will be a
 number between 90 and 120 cm and the height will be a number
 between 40 and 100 cm  */
 
+ public class Window{
+
+    public static void main(String[] args) {
+
+        String name;
+        int width, height;
+
+        
+    }
+}
