@@ -12,7 +12,12 @@ between 40 and 100 cm  */
     public static void main(String[] args) {
 
         String name;
-        int width, height;
+        int width = 0, height = 0;
+    
+    }
+
+    public void toString(){
+
 
         
     }
