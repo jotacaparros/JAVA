@@ -1,0 +1,9 @@
+Compilar:
+
+javac + "Nombre del archivo".java
+
+Ejecutar en consola:
+
+java + "Nombre del archivo"
+
+Importante solo el nombre del archivo .class, nada delante, nada detrás.
