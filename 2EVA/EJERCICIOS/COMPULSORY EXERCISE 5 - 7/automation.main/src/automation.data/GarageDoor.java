@@ -1,14 +1,12 @@
 package automation.data;
 
-public class Blind extends AutomationElement implements Raiser {
+public class GarageDoor extends Door implements Raiser {
 
-   private int totalPercent;
+    int totalPercent;
 
-    public Blind(String name, int totalPercent) {
-
-        super(name);
+    public GarageDoor(String name, String status, int totalPercent) {
+        super(name, status);
         this.totalPercent = totalPercent;
-
     }
 
     @Override
@@ -37,13 +35,13 @@ public class Blind extends AutomationElement implements Raiser {
         }
     }
 
-    public int getPercent() {
-        return totalPercent;
-    }
-
     @Override
     public String toString() {
         return super.toString() + " " + totalPercent;
+    }
+
+    public int getPercent() {
+        return totalPercent;
     }
 
 
