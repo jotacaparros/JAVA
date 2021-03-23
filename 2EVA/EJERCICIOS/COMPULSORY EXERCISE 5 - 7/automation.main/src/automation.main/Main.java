@@ -12,6 +12,7 @@ import automation.data.Light;
 
 
 public class Main {
+
     public static void main(String[] args){
 
 
